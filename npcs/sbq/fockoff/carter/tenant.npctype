@@ -64,13 +64,13 @@
 			"priority" : 60,
 			"colonyTagCriteria" : {
 				// You should make the colony tags below reflect what your OC likes
-				"glitchvillage" : 4
+				"novakid" : 4
 			},
 			"tenant" : {
 				"spawn": "npc", "species": "sbq/fockoff/carter", "type": "sbq/fockoff/carter", "overrides": {},
 				"orderFurniture" : [
 					// you should populate this list with objects that have the requisite colonytags
-					{"name":"outhouse", "count":1}
+					{"name":"frontierhatrack", "count":1}
 				]
 			}
 		},

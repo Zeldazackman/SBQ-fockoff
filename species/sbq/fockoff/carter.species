@@ -211,7 +211,7 @@
 
 	"sbqCompatible" : true, // marks this species as compatible with SBQ
 	"sbqTFAny" : false,
-	"charCreationPatch" : true,
+	"charCreationPatch" : false,
 	"sbqHubNPCs" : [ // list of NPCs that can spawn in the SBQ hub world
 		{"level": 1, "species": "sbq/fockoff/carter", "type": "sbqVoreVillager", "overrides": {}}
 	],
@@ -518,8 +518,8 @@
 		},
 
 		// infuse sprites for the quadruped species' belly
-		"sbq/infused/bellyQuadruped.png": {
-			"sourceImage": "/humanoid/sbq/quadruped/belly/default.png",
+		"sbq/infused/quadruped/belly.png": {
+			"sourceImage": "/humanoid/wr/quadruped/belly/default.png",
 
 			"processingDirectives": "?replace;00adba=bc1002", // this replaces the navel pixel, don't touch this
 			"remapDirectives": [
@@ -529,8 +529,8 @@
 				]
 			]
 		},
-		"sbq/infused/bellyQuadruped_noNavel.png": {
-			"sourceImage": "/humanoid/sbq/quadruped/belly/default.png",
+		"sbq/infused/quadruped/belly_noNavel.png": {
+			"sourceImage": "/humanoid/wr/quadruped/belly/default.png",
 			"processingDirectives": "?replace;00adba=eb3629", // this replaces the navel pixel, don't touch this
 			"remapDirectives": [
 				[
